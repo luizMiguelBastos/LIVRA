@@ -3,16 +3,15 @@ LIVRA — Sistema de Gerenciamento de Biblioteca
 Sistema de gerenciamento de biblioteca desenvolvido em Java puro, com foco em Programação Orientada a Objetos. Permite o cadastro e controle de usuários, acervo de livros e empréstimos com desconto automático por categoria de usuário.
 
 
-Funcionalidades
+Funcionalidades:
 
-
-Cadastro de usuários por categoria (Aluno, Professor, Usuário Comum)
-Busca de usuários por ID
-Cadastro de livros com valor de aluguel
-Catálogo de livros disponíveis
-Sistema de aluguel com controle de disponibilidade
-Devolução de livros
-Desconto automático por categoria:
+- Cadastro de usuários por categoria (Aluno, Professor, Usuário Comum)
+- Busca de usuários por ID
+- Cadastro de livros com valor de aluguel
+- Catálogo de livros disponíveis
+- Sistema de aluguel com controle de disponibilidade
+- Devolução de livros
+- Desconto automático por categoria:
 
 Aluno: 10% de desconto
 Professor: 20% de desconto
@@ -23,30 +22,28 @@ Usuário Comum: sem desconto
 
 
 
-Conceitos de POO aplicados
+Conceitos de POO aplicados:
 
 ConceitoAplicaçãoHerançaAluno, Professor e UsuarioComum herdam de UsuarioPolimorfismoMétodo calcularDesconto() com comportamento diferente por tipoEncapsulamentoAtributos privados com getters/setters em todas as classesAbstraçãoModelagem de entidades do mundo real (Usuário, Livro)
 
 
-Tecnologias
+Tecnologias:
+
+- Linguagem: Java (JDK 11+)
+- IDE recomendada: IntelliJ IDEA
+- Dependências: Nenhuma — Java puro
 
 
-Linguagem: Java (JDK 11+)
-IDE recomendada: IntelliJ IDEA
-Dependências: Nenhuma — Java puro
+
+Como rodar:
+
+Pré-requisitos:
+
+- JDK 11 ou superior instalado
+- IntelliJ IDEA (recomendado) ou qualquer IDE Java
 
 
-
-Como rodar
-
-Pré-requisitos
-
-
-JDK 11 ou superior instalado
-IntelliJ IDEA (recomendado) ou qualquer IDE Java
-
-
-Pelo IntelliJ IDEA
+Pelo IntelliJ IDEA:
 
 
 Clone o repositório:
@@ -62,7 +59,7 @@ Localize o arquivo Main.java
 Clique no botão de execução ao lado do método main
 
 
-Pelo terminal
+Pelo terminal:
 
 bash# Clone o repositório
 git clone https://github.com/luizMiguelBastos/LIVRA.git
