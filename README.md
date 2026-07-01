@@ -24,10 +24,10 @@ Usuário Comum: sem desconto
 
 Conceitos de POO aplicados:
 
-HerançaAluno: Professor e UsuarioComum herdam de Usuario
-Polimorfismo: Método calcularDesconto() com comportamento diferente por tipo
-Encapsulamento: Atributos privados com getters/setters em todas as classes
-Abstração: Modelagem de entidades do mundo real (Usuário, Livro)
+- HerançaAluno: Professor e UsuarioComum herdam de Usuario
+- Polimorfismo: Método calcularDesconto() com comportamento diferente por tipo
+- Encapsulamento: Atributos privados com getters/setters em todas as classes
+- Abstração: Modelagem de entidades do mundo real (Usuário, Livro)
 
 
 Tecnologias:
